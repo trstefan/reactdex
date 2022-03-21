@@ -65,8 +65,28 @@ header img {
 
 .poke-details-body .info-wrapper {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 730px) {
+  .poke-details-body .info-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
+    align-items: center;
+  }
+}
+
+.col-2 {
+  width: 40%;
+}
+
+.col-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  justify-content: end;
 }
 
 .poke-details-body .info-wrapper .info-wrapper-header {
@@ -74,10 +94,8 @@ header img {
   text-align: center;
 }
 
-.col-1,
-.col2 {
-  display: grid;
-  justify-content: center;
+.col-2 .progress-bar {
+  border-radius: 50px;
 }
 
 .info-pics {
