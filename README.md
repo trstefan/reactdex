@@ -1,5 +1,5 @@
 
-# Project Title
+# ReactDex
 
 React application that consumes PokeAPI to display first generation of Pokemons along with their stats.
 
