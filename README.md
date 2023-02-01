@@ -17,7 +17,7 @@
 
 React application that consumes PokeAPI to display first generation of Pokemons along with their stats.
 
-## 📚 Built With
+## 📚 Technologies
 
   - React
   - React Router
