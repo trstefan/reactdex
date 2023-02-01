@@ -1,13 +1,11 @@
 
-# ReactDex
+# Reactdex - ReactJS
 
-React application that consumes PokeAPI to display first generation of Pokemons along with their stats.
+## :link:	Live Demo 
 
-## Demo
+[Demo Link](https://trstefan.github.io/reactdex/#/)
 
-Here is a working live demo : [_trstefan.github.io/reactdex/#/_](trstefan.github.io/reactdex/#/)
-
-## Screenshots
+## 📷 Screenshots
 
 #### Homepage
 ![Alternate image text](https://i.ibb.co/SNJr7tq/reactdext-Front.png)
@@ -15,24 +13,25 @@ Here is a working live demo : [_trstefan.github.io/reactdex/#/_](trstefan.github
 #### Pokemon's page
 ![Alternate image text](https://i.ibb.co/m4K4KZd/reactdex-Singe.png)
 
+## 📝 Project Description
 
+React application that consumes PokeAPI to display first generation of Pokemons along with their stats.
 
-## Built With
-  - HTML
-  - CSS (styled-components)
-  - Javascript
+## 📚 Built With
+
   - React
   - React Router
+  - CSS (styled-components)
   - Axios
 
-## Features
+## 🎯 Features
   - View all first generation Pokemons
   - View single Pokemon page
   - View information such as: HP, Damage, Defense and Speed
   - Visualize what type that Pokemon is and what its moves are
   - Cross platform
 
-## Run locally
+## 🏃 Run locally
 
 Clone the project
 
@@ -58,7 +57,7 @@ Start the server
   npm run start
 ```
 
-## Acknowledgements
+## ⭐ Acknowledgements
 
  - [PokeApi](https://pokeapi.co/)
  - [Axios](https://www.npmjs.com/package/axios)
